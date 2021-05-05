@@ -30,4 +30,9 @@ public class Main
 		System.out.println("Bienvenue " + player1.leNomDuFDP + " pv : " + player1.getPv());
 		
 	}
+	
+	public static void test()
+	{
+		System.out.println("Juste pour te montrer que Git c'est cool");
+	}
 }
