@@ -5,8 +5,14 @@ public class Wolf extends Enemy
 
 	public Wolf(int monsterLvl)
 	{
-		super(name, type, monsterLvl, monsterHp, monsterAtk, monsterDef);
+		super("wolf", monsterLvl, 10, 5, 2);
 		
+	}
+	
+	@Override
+	public void parle()
+	{
+		System.out.println("ouaf");
 	}
 	
 }
